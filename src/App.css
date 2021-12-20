@@ -1,0 +1,75 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding         : 2%;
+  background-color: blueviolet;
+  color           : white;
+}
+
+section {
+  display: flex;
+  margin : 1%;
+}
+
+section>div {
+  overflow: auto;
+  height  : 80vh;
+
+}
+
+section> :first-child {
+  width         : 40%;
+  display       : flex;
+  flex-direction: column;
+
+}
+
+section div {
+
+  margin-bottom: 2%;
+}
+
+.food {
+  display        : flex;
+  align-items    : center;
+  justify-content: space-between;
+  border         : solid blueviolet;
+  padding        : 1%;
+  font-size      : 1.5em;
+
+}
+
+.food div input,
+div input {
+  font-size: .8em;
+  border   : solid;
+  padding  : 1%;
+}
+
+.cartlist {
+  margin-left    : 5%;
+  width          : 50%;
+  padding: 1%  5% 5% ;
+
+}
+
+.delete {
+  background-color: red;
+  font-size       : 1em;
+  padding         : .5%;
+  border          : none;
+  cursor: pointer;
+} 
+.cartlist .food
+{
+  border:none;
+  border-bottom: groove;
+}
+ h1
+{
+  margin-bottom: 1%;
+}
